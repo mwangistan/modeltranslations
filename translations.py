@@ -13,3 +13,6 @@ class ArticlesTranslations(TranslationOptions):
 				'body':instance.__dict__['body']})
 	else:
 		fallback_values = {}
+
+
+translator.register(Articles, ArticlesTranslations)
